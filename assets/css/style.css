@@ -1,14 +1,17 @@
 * {
+    /* Set universal box-sizinf, padding and margin values */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* Sets background color */
     background-color: #d9dcd6;
 }
 
 header {
+    /* Sets colors using hex  */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,41 +19,49 @@ header {
 }
 
 header h1 {
+    /* Sets header h1  display type for boxes and font size  */
     display: inline-block;
     font-size: 48px;
 }
 
 header h1 .seo {
+    /* Sets .seo class color in hex  */
     color: #d9dcd6;
 }
 
 header nav {
+    /* Sets .seo header nav padding, margin, flot and font properties  */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 header nav ul {
+    /* Sets list item icon to none  */
     list-style-type: none;
 }
 
 header nav ul li {
+    /* Sets list display to inline mode  */
     display: inline-block;
     margin-left: 5px;
 }
 
 header nav a {
+    /* Set nav link colors in hex  */
     color: #ffffff;
     text-decoration: none;
 }
 
 body p {
+    /* Sets paragraph font size  */
     font-size: 16px;
 }
 
-.hero img{
+.hero img {
+    /* Formating main image  */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,12 +70,14 @@ body p {
 }
 
 .content {
+    /* Set content class section paramaters*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .content article {
+    /* Set content article paramaters*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,25 +87,30 @@ body p {
 }
 
 .content img {
+    /* Set content images max-height*/
     max-height: 200px;
 }
 
 .content h2 {
+    /* Set content h2 margin and font*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .content .float-left {
+    /* Set content Image with predified id float value*/
     float: left;
     margin-right: 25px;
 }
 
 .content .float-right {
+    /* Set content Image with predified id float value*/
     float: right;
     margin-left: 25px;
 }
 
 .benefits {
+    /* Set benefits section styling parameters*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -104,16 +122,19 @@ body p {
 }
 
 .benefits article {
+    /* Set benefits article paramaters*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefits h3 {
+    /* Set benefits h3 margin and font*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefits img {
+    /* Set benefits image style properties*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
